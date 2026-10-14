@@ -68,7 +68,7 @@ jobs:
           git config --global user.email "eio-github-actions-power-enhancer[bot]@users.noreply.github.com"
 
       - name: "Setup `ecm-distro-tools` CLI"
-        uses: rancher/ecm-distro-tools@290d2621a24dab79c3c54c57965d4257cb1ee2b8 # v0.77.5
+        uses: rancher/ecm-distro-tools@e72fccc212c7179d2ff65d173371d8183e95453e # v0.77.7
 
       - name: "Open `rancher/rke2` PR Updating References"
         env:
